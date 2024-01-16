@@ -1,3 +1,4 @@
+'use strict';
 let userName = prompt('Enter Your Name, please')
 let userGender = prompt('Enter Your Gender.')
 let userAge = prompt('Enter Your Age')
@@ -14,7 +15,7 @@ if (welcomeMessage){
   } else if(userGender === 'female'){
     alert(`welcome Ms: ${userName} to our website`)
   } else{
-    alert('welcome guest to our website')
+    alert(`welcome ${userName} to our website`)
   }
   
 }
